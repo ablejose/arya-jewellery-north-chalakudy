@@ -1,10 +1,16 @@
 import type { BrandConfig } from "@/types/brand";
 
+/**
+ * SINGLE SOURCE OF TRUTH.
+ *
+ * To rebrand this website for a different jewellery business, edit ONLY this
+ * file and the Cloudinary asset URLs. No component code should change.
+ */
 export const BRAND: BrandConfig = {
   businessName: "Arya Jewellery",
-  tagline: "Exquisite Jewellery in Chalakudy",
+  tagline: "Trusted Jewellery Store in Chalakudy",
   description:
-    "Arya Jewellery is Chalakudy's trusted destination for gold, diamond and silver jewellery. Serving Chalakudy with timeless craftsmanship and exquisite collections for every celebration.",
+    "Arya Jewellery is Chalakudy's trusted destination for exquisite gold, diamond, and silver jewellery. Serving Chalakudy with timeless craftsmanship and elegant designs for every celebration.",
 
   logo: "/icons/logo.svg",
   favicon: "/favicon.ico",
@@ -16,7 +22,7 @@ export const BRAND: BrandConfig = {
     {
       quote: "ലാളിത്യത്തിലെ പൂർണ്ണത.",
       description:
-        "അണിയാൻ തീരെ ഭാരമില്ലാത്ത, എന്നാൽ കണ്ണഞ്ചിപ്പിക്കുന്ന ഡിസൈനുകൾ.",
+        "അണിയാൻ തീരെ ഭാരമില്ലാത്ത, എന്നാൽ കണ്ണഞ്ചിപ്പിക്കുന്ന ഡിസൈനുകൾ. നിങ്ങളുടെ ഓരോ സാധാരണ ദിവസത്തെയും മനോഹരമാക്കാൻ ഇവ മതിയാകും.",
       video:
         "https://res.cloudinary.com/fylz5e3j/video/upload/v1782936959/VN20260702_013328_tbexfn.mp4",
       segments: { startAt: 0, loopEnd: 8 },
@@ -24,7 +30,7 @@ export const BRAND: BrandConfig = {
     {
       quote: "കൈകളിൽ വിരിയുന്ന വിസ്മയം.",
       description:
-        "ഓരോ ആഭരണവും ഓരോ കലാരൂപമാണ്‍.",
+        "ഓരോ ആഭരണവും ഓരോ കലാരൂപമാണ്. അതിസൂക്ഷ്മമായി, തികഞ്ഞ പൂർണ്ണതയോടെ രൂപപ്പെടുത്തിയെടുത്തവ. നിങ്ങളുടെ സ്വപ്നങ്ങൾക്ക് സ്വർണ്ണത്തിൽ ജീവൻ വയ്ക്കുമ്പോൾ.",
       video:
         "https://res.cloudinary.com/fylz5e3j/video/upload/v1782936959/VN20260702_013328_tbexfn.mp4",
       segments: { startAt: 32, loopEnd: 40 },
@@ -32,7 +38,7 @@ export const BRAND: BrandConfig = {
     {
       quote: "ചാലക്കുടിയുടെ ഹൃദയത്തിൽ നിന്ന്.",
       description:
-        "ഈ നാടിന്റെ പൈതൃകവും പുതുമയും ഒത്തുചേരുന്ന ആഭരണങ്ങൾ.",
+        "ഈ നാടിന്റെ പൈതൃകവും പുതുമയും ഒത്തുചേരുന്ന ആഭരണങ്ങൾ. തലമുറകളായി നിങ്ങൾ നൽകുന്ന വിശ്വാസത്തിന് സ്വർണ്ണത്തേക്കാൾ തിളക്കമുണ്ട്.",
       video:
         "https://res.cloudinary.com/fylz5e3j/video/upload/v1782936959/VN20260702_013328_tbexfn.mp4",
       segments: { startAt: 16, loopEnd: 24 },
@@ -58,23 +64,22 @@ export const BRAND: BrandConfig = {
   mapsLink:
     "https://www.google.com/maps/search/?api=1&query=Arya%20Jewellery&query_place_id=ChIJ-3Zw-G8DCDsRUCuaugfUxQk",
 
-  openingHours: "Mon–Sat: 9:30 AM – 8:00 PM · Sunday: 10:00 AM – 7:00 PM",
+  openingHours: "Mon–Sat: 9:30 AM – 8:00 PM · Sunday: 10:00 AM – 7:00 PM",
 
   instagram: "",
   facebook: "",
 
   seo: {
-    title: "Arya Jewellery | Jewellery Store in Chalakudy",
+    title: "Arya Jewellery | Jewellery in Chalakudy",
     description:
-      "Arya Jewellery — your trusted destination for gold, diamond and silver jewellery in Chalakudy, Kerala.",
+      "Arya Jewellery is Chalakudy's trusted destination for exquisite gold, diamond, and silver jewellery. Serving Chalakudy with timeless craftsmanship and elegant designs for every celebration.",
     keywords: [
       "Arya Jewellery",
       "jewellery Chalakudy",
       "gold jewellery Chalakudy",
       "diamond jewellery Chalakudy",
       "silver jewellery Chalakudy",
-      "jewellery store Chalakudy",
-      "jewellery Kerala",
+      "jewellery store Kerala",
     ],
     canonical: "https://arya-jewellery-north-chalakudy.vercel.app",
     ogImage:
