@@ -90,6 +90,12 @@ export const BRAND: BrandConfig = {
 
   faq: [],
 
+  goldRate: {
+    date: "22 Jul 2026",
+    rate22k: "₹13,150",
+    rate24k: "₹14,350",
+  },
+
   whatsappMessage:
     "Hello Arya Jewellery, I'd like to know more about your jewellery collections.",
 };

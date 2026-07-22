@@ -31,6 +31,17 @@ export interface SeoConfig {
   ogImage: string;
 }
 
+/** Optional "Today's gold rate" card content. Shop-controlled figures so the
+ *  displayed rate matches the store's own board. Omit to hide the card. */
+export interface GoldRate {
+  /** Date the rate applies to, e.g. "22 Jul 2026". */
+  date: string;
+  /** 22K (916) per-gram price, formatted for display, e.g. "₹13,150". */
+  rate22k: string;
+  /** 24K (999) per-gram price, formatted for display, e.g. "₹14,350". */
+  rate24k: string;
+}
+
 export interface BrandConfig {
   businessName: string;
   tagline: string;
@@ -67,4 +78,7 @@ export interface BrandConfig {
   faq: FaqItem[];
 
   whatsappMessage: string;
+
+  /** Optional daily gold rate shown in a small hero card. */
+  goldRate?: GoldRate;
 }

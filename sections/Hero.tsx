@@ -1,6 +1,7 @@
 import { BRAND } from "@/config/brand";
 import { Button } from "@/components/Button";
 import { splitBrandName, telHref } from "@/lib/format";
+import { GoldRateCard } from "@/components/GoldRateCard";
 
 /**
  * Full-viewport hero with an autoplay, muted, looping Cloudinary film behind
@@ -25,7 +26,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/60 to-background/30" />
       <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
 
-      <div className="container-lux relative z-10">
+      <div className="container-lux relative z-10 flex flex-col gap-10 md:flex-row md:items-center md:justify-between">
         <div className="max-w-2xl">
           <h1 className="font-display text-display-xl text-gold-sweep">{primary}</h1>
           {secondary ? (
@@ -38,6 +39,10 @@ export function Hero() {
               Call Now
             </Button>
           </div>
+        </div>
+
+        <div className="shrink-0 md:pl-6">
+          <GoldRateCard />
         </div>
       </div>
 
